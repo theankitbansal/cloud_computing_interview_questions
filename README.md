@@ -122,3 +122,86 @@ Scalability — Scalability makes it easier to deploy an additional instance of 
 Microservices are fully tested and validated. When new applications leverage existing microservices, developers can assume the integrity of the new application without the need for continual testing.
 
 16. What is the cloud usage monitor?
+
+The cloud usage monitor mechanism is an autonomous and lightweight software program that is responsible for collecting and processing the IT resource usage data.
+
+Cloud usage monitors can exist in different formats depending on what type of usage metrics these are designed to collect and how the usage data needs to be collected. The following points describe 3 common agent-based implementation formats.
+
+Monitoring Agent
+Resource Agent
+Polling Agent
+
+17. How does the Monitoring Agent monitor the cloud usage?
+
+An intermediary and an event-driven program that exists as a service agent and resides along the existing communication paths is a monitoring agent.  It transparently monitors and analyzes dataflows. Commonly, the monitoring agent is used to measure the network traffic and also message metrics.
+
+18. How does the Resource Agent monitor the cloud usage?
+
+A processing module that is used to collect usage data by having event-driven interactions with the specialized resource software, is a resource agent. This agent is applied to check the usage metrics based on pre-defined, observable events at the resource software level, like initiating, suspending, resuming, and vertical scaling.
+
+19. How does the Polling Agent monitor cloud usage?
+
+A processing module that gathers cloud service usage data by polling IT resources is called a polling agent. The polling agent has also been used to timely monitor the IT resource status, like uptime and downtime.
+Each of these can be designed to forward collected usage data to a log database for post-processing and for reporting purposes.
+
+20. What are Cloud-Native Applications?
+
+‘Cloud native’ is a software framework designed with containers, microservices, dynamic orchestration, and also continuous delivery of software. Every part of the cloud-native application has within it its own container and is dynamically orchestrated with other containers to optimize the way the resources are utilized.
+
+21. How does the Cloud Native Computing Foundation define cloud-native applications?
+
+The Cloud Native Computing Foundation gives a clear definition of cloud-native:
+
+Container packaged: This means a standard way to package applications that is resource-efficient. By using a standard container format, more applications can be densely packed.
+Dynamically managed: This means a standard way to discover, deploy, and scale up and down containerized applications.
+Microservices oriented: This means a method to decompose the application into modular, independent services that interact through well-defined service contracts.
+
+22. What is meant by Edge Computing?
+
+Edge and cloud are complementary. These are both parts of a broader concept called the distributed cloud. A majority of those pursuing edge computing strategies are now viewing edge as part of their overall cloud strategy.
+
+Edge computing, unlike cloud computing, is all about the physical location and issues related to latency. Cloud and edge combine the strengths of a centralized system, along with the advantages of distributed operations at the physical location where things and people connect. In IoT scenarios, the edge is very common. Cloud is different from the edge, in that it has never been about location. As opposed, it has always been about the independence of location.
+
+The popular scenarios are where you have cloud and edge together, and the cloud provider controls to run and defines the architecture for what is out at the edge.
+
+23. What is an API Gateway?
+
+An API gateway allows multiple APIs to act together as a single gateway to provide a uniform experience to the user. In this, each API call is processed reliably. The API gateway manages the APIs centrally and provides enterprise-grade security. Common tasks of the API services can be handled by the API gateway. These tasks include services like statistics, rate limiting, and user authentication.
+
+24. What do you mean by Rate Limiting?
+
+Rate Limiting is a way to limit the network traffic. Rate limiting runs within the app rather than the server. It typically tracks the IP addresses and the time between each request.
+
+It can eliminate certain suspicious and malicious activities. Bots that impact a website can also be stopped by Rate Limiting. This protects against API overuse which is important to prevent. 
+
+25. What do you mean by encapsulation in cloud computing?
+
+A container is a packaged software code along with all of its dependencies so that it can run consistently across clouds and on-premises. This packaging up of code is often called encapsulation. Encapsulating code is important for developers as they don’t have to develop code based on each individual environment.
+
+26. What are the different Datacenters deployed for Cloud Computing?
+
+Cloud computing is made up of various data centers put together in a grid form. It consists of the data centers like:
+
+Containerized Data Centers
+Low-Density Data Centers
+
+27. What are Containerized Data Centers?
+
+Containerized Data Centers are the traditional data centers that allow a high level of customization with servers, mainframes, and other resources. These require planning, cooling, networking, and power to access and work.
+
+28. What are Low-Density Data Centers?
+
+Low-Density Data Centers are optimized to give high performance. The space constraint is being removed and there is an increased density in these data centers. One drawback it has is that with high density the heat issue also creeps in. These data centers are quite suitable to develop the cloud infrastructure.
+
+29. What are some issues with Cloud Computing?
+
+Following are some of the issues of cloud computing:
+
+Security Issues: As it would be in any other computing paradigms, security is as much of a concern as Cloud computing. Cloud Computing is vaguely defined as the outsourcing of services, which in turn causes users to lose significant control over their data. With the public Cloud, there is also a risk of seizure associated.
+Legal and Compliance Issues: Sometimes, clouds are bounded by geographical boundaries. The provision of different services is not location-dependent. Because of this flexibility Clouds face Legal & Compliance issues. Though these issues affect the end-users, they are related mainly to the vendors.
+Performance and Quality of Service (QoS) Related Issues: Paradigm performance is of utmost importance for any computing. The Quality of Service (QoS) varies as the user requirements may vary. One of the critical Quality of Service-related issues is the optimized way in which commercial success can be achieved using Cloud computing. If a provider is unable to deliver the promised QoS it may tarnish its reputation. One faces the issue of Memory and Licensing constraints which directly hamper the performance of a system, as Software-as-a-Service (SaaS) deals with the provision of software on virtualized resources,
+Data Management Issues: An important use case of Cloud Computing is to put almost the entire data on the Cloud with minimum infrastructure requirements for the end-users. The main problems related to data management are scalability of data, storage of data, data migration from one cloud to another, and also different architectures for resource access. It is of utmost importance to manage these data effectively, as data in Cloud computing also includes highly confidential information.
+
+30. How does Resource Replication take place in Cloud Computing?
+
+Resource Replication is the creation of multiple instances of the same IT resource. It is typically performed when an IT resource’s availability and performance are needed to be enhanced. The virtualization technology is adopted to implement the resource replication mechanism in order to replicate the cloud-based IT resources.
