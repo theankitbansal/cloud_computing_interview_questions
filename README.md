@@ -72,7 +72,7 @@ Datasets – Data sets organized into a table-based, delimited, or record format
 Objects – Data and the associated metadata with it are organized as web-based resources.
 Each of the above data storage levels is associated with a certain type of technical interface. This interface corresponds to a particular type of cloud storage device and the cloud storage service used to expose its API.
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/81725794/183340893-29f26b2d-fa3d-41bf-85cf-d94747fe5376.png)
 
 11. What are serverless components in cloud computing?
 
@@ -205,3 +205,12 @@ Data Management Issues: An important use case of Cloud Computing is to put almos
 30. How does Resource Replication take place in Cloud Computing?
 
 Resource Replication is the creation of multiple instances of the same IT resource. It is typically performed when an IT resource’s availability and performance are needed to be enhanced. The virtualization technology is adopted to implement the resource replication mechanism in order to replicate the cloud-based IT resources.
+
+![Uploading image.png…]()
+
+Conclusion:
+
+Cloud computing is completely based on the Internet. It is the next stage in the evolution of the Internet. Cloud computing uses the cloud that provides the way to deliver the services whenever and wherever the user needs them. Enterprises use cloud computing to provide solutions to the needs of their customers, partners, and providers.
+
+Cloud computing includes partners, vendors, and business leaders as the three major contributors. The vendors provide applications and their related technology, infrastructure, hardware, and integration. The partners offer cloud services and provide support services to the customers. The business leaders evaluate the cloud service provided by the partners. 
+Cloud computing enables enterprises to treat their resources as a pool and not as independent resources.
