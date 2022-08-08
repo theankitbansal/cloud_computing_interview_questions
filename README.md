@@ -74,3 +74,51 @@ Each of the above data storage levels is associated with a certain type of techn
 
 ![Uploading image.png…]()
 
+11. What are serverless components in cloud computing?
+
+Serverless components in cloud computing allow the building of applications to take place without the complexity of managing the infrastructure. One can write code without having provision to a server.
+
+Serverless machines take care of virtual machines and container management. Multithreading, hardware allocating are also taken care of by the serverless components. 
+
+12. What are the advantages and disadvantages of serverless computing?
+
+Serverless computing has the following advantages and disadvantages:
+Advantages:
+
+It is cost-effective.
+The operations on serverless computing are simplified.
+Serverless computing helps boost productivity.
+It offers scaling options.
+It involves zero server management.
+Disadvantages:
+
+Serverless code can cause response latency.
+It is not ideal for high-computing operations because of resource limitations.
+For serverless computing, the responsibility of security comes under the service company and not the consumer, which might be more vulnerable.
+Debugging serverless code is a bit more challenging.
+
+13. What are cloud-enabling technologies?
+
+There are several areas of technology that contribute to modern-day cloud-based platforms. These are known as cloud-enabling technologies. Some of the cloud-enabling technologies are:
+
+Broadband Networks and Internet Architecture
+Data Center Technology
+(Modern) Virtualization Technology
+Web Technology
+Multitenant Technology
+Service Technology
+
+14. What are Microservices?
+
+Microservices is a process of developing applications that consist of code that is independent of each other and of the underlying developing platform. Each microservice runs a unique process and communicates through well-defined and standardized APIs, once created. These services are defined in the form of a catalog so that developers can easily locate the right service and also understand the governance rules for usage.
+
+15. Why are microservices important for a true cloud environment?
+
+The reason why microservices are so important for a true cloud environment is because of these four key benefits:
+
+Each microservice is built to serve a specific and limited purpose, and hence application development is simplified. Small development teams can then focus on writing code for some of the narrowly defined and easily understood functions.
+Code changes will be smaller and less complex than with a complex integrated application, making it easier and faster to make changes, whether to fix a problem or to upgrade service with new requirements.
+Scalability — Scalability makes it easier to deploy an additional instance of a service or change that service as needs evolve.
+Microservices are fully tested and validated. When new applications leverage existing microservices, developers can assume the integrity of the new application without the need for continual testing.
+
+16. What is the cloud usage monitor?
