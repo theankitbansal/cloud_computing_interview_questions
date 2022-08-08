@@ -174,6 +174,7 @@ Rate Limiting is a way to limit the network traffic. Rate limiting runs within t
 
 It can eliminate certain suspicious and malicious activities. Bots that impact a website can also be stopped by Rate Limiting. This protects against API overuse which is important to prevent. 
 
+
 25. What do you mean by encapsulation in cloud computing?
 
 A container is a packaged software code along with all of its dependencies so that it can run consistently across clouds and on-premises. This packaging up of code is often called encapsulation. Encapsulating code is important for developers as they don’t have to develop code based on each individual environment.
