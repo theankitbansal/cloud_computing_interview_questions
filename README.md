@@ -24,3 +24,53 @@ Cloud delivery models are models that represent the computing environments. Thes
 3. Software as a Service (SaaS): Software as a Service (SaaS) is a business application created and hosted by a provider in a multi-tenant model. 
 4. Function as a Service (FaaS): Function as a Service (FaaS) gives a platform for customers to build, manage and run app functionalities without the difficulty of maintaining infrastructure. One can thus achieve a "serverless" architecture.
 
+![image](https://user-images.githubusercontent.com/81725794/183340143-f9ac883a-28af-4b06-bb62-83754041d6ae.png)
+
+4. What are the different versions of the cloud?
+
+There are two primary deployment models of the cloud: Public and Private. 
+
+1. Public  Cloud: The set of hardware, networking, storage, services, applications, and interfaces owned and operated by a third party for use by other companies or individuals is the public cloud. These commercial providers create a highly scalable data center that hides the details of the underlying infrastructure from the consumer. Public clouds are viable because they offer many options for computing, storage, and a rich set of other services.
+2. Private Cloud: The set of hardware, networking, storage, services, applications, and interfaces owned and operated by an organization for the use of its employees, partners, or customers is the private cloud. This can be created and managed by a third party for the exclusive use of one enterprise. The private cloud is a highly controlled environment not open for public consumption. Thus, it sits behind a firewall.
+3. Hybrid Cloud: Most companies use a combination of private computing resources and public services, called the hybrid cloud environment. 
+4. Multi-Cloud: Some companies, in addition, also use a variety of public cloud services to support the different developer and business units – called a multi-cloud environment.
+
+6. What are the main constituents that are part of the cloud ecosystem?
+
+The parts of the cloud ecosystem that determine how you view the cloud architecture are:
+
+Cloud consumers
+Direct customers
+Cloud service providers
+
+6. Who are the Cloud Consumers in a cloud ecosystem?
+
+The individuals and groups within your business unit that use different types of cloud services to get a task accomplished. A cloud consumer could be a developer using compute services from a public cloud.
+
+7. Who are the Direct customers in a cloud ecosystem?
+
+Users who often take advantage of services that your business has created within a cloud environment. The end-users of your service have no idea that you’re using a public or private cloud. As long as the users are concerned, they’re interacting directly with the services and value.
+
+8. Who are the Cloud service providers in a cloud ecosystem?
+
+Cloud service providers are the commercial vendors or companies that create their own capabilities. The commercial vendors sell their services to cloud consumers. In contrast to this, a company might decide to become an internal cloud service provider to its own partners, employees, and customers, either as an internal service or as a profit center. Cloud service providers also create applications or services for such environments.
+
+9. Describe the Cloud Computing Architecture.
+
+The cloud computing architecture is all the components of a cloud model that fit together from an architectural perspective. The figure below depicts how the various cloud services are related to support the needs of businesses. On the left side, the cloud service consumer represents the types of uses of cloud services. No matter what the requirements of the particular constituent are, it is important to bring the right type of services together that can support both internal and external users. Management of the consumers should be able to make services readily available to support the changing business needs. The applications, middleware, infrastructure, and services that are built based on on-premises computing models are within this category. In addition to this, the model depicts the role of a cloud auditor. This organization provides an oversight either by an internal or external group which makes sure that the consumer group meets its obligations.
+
+![image](https://user-images.githubusercontent.com/81725794/183340255-744ca15e-2d89-4b8c-adaa-47e4ac3dffcc.png)
+
+10. What are the Cloud Storage Levels?
+
+
+Cloud storage device mechanisms provide common levels of data storage, such as:
+
+Files – These are collections of data that are grouped into files that are located in folders.
+Blocks – A block is the smallest unit of data that is individually accessible. It is the lowest level of storage and the closest to the hardware.
+Datasets – Data sets organized into a table-based, delimited, or record format.
+Objects – Data and the associated metadata with it are organized as web-based resources.
+Each of the above data storage levels is associated with a certain type of technical interface. This interface corresponds to a particular type of cloud storage device and the cloud storage service used to expose its API.
+
+![Uploading image.png…]()
+
